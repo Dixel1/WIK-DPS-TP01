@@ -44,11 +44,11 @@ Le port 3000 est ici celui configuré par défaut.
 
 **Résultats :**
 
-- Une requête HTTP GET sur /ping permet de récuperer et d'afficher au format JSON les headers de la requête.
+- Une requête HTTP GET sur /ping permet de récuperer et d'afficher au format JSON les headers de la requête. (exemple : http://localhost:3000/ping)
 
 ![image](https://user-images.githubusercontent.com/63664894/202863474-6ddfb27d-a46c-460f-a7aa-163cf6a4ba9c.png)
 
-- Une réponse vide avec code erreur 404 est affichée si quoi que ça soit d'autre que GET /ping est tenté
+- Une réponse vide avec code erreur 404 est affichée si quoi que ça soit d'autre que GET /ping est tenté. (exemple : http://localhost:3000/test)
 
 ![image](https://user-images.githubusercontent.com/63664894/202863556-dea0106e-50b8-487c-a002-9b1ed01a1ac5.png)
 
@@ -64,7 +64,7 @@ Le port 3000 est ici celui configuré par défaut.
 
  ![image](https://user-images.githubusercontent.com/63664894/202863919-b04d0457-9db5-4c3d-8d88-1d0427a0153c.png)
 
-  - Enregistrer et relancer l'API suivant la partie **Pour préparer et lancer le projet :** , le serveur écoute désormais sur le port personnalisé que vous avez défini.
+  - Enregistrer et relancer l'API suivant la partie **Pour préparer et lancer le projet :** , le serveur écoute désormais sur le port personnalisé que vous avez défini. (exemple : http://localhost:589/ping)
  
  ![image](https://user-images.githubusercontent.com/63664894/202864087-ea682ab0-2707-48e8-aa05-260ef7df221a.png)
 
