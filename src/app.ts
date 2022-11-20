@@ -23,5 +23,3 @@ app.get('*', (req, res) => {
 app.listen(PING_LISTEN_PORT, () => {
     return console.log(`Express écoute sur http://localhost:${PING_LISTEN_PORT}`);
 });
-
-//res.json(req.headers)
