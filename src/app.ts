@@ -19,7 +19,7 @@ app.get('*', (req, res) => {
     res.status(404).end();
 })
 
-//Permet à Express d'écouter sur le port séléctionné
+//Permet à Express d'écouter sur la valeur de port défini dans la variable "PING_LISTEN_PORT"
 app.listen(PING_LISTEN_PORT, () => {
     return console.log(`Express écoute sur http://localhost:${PING_LISTEN_PORT}`);
 });
