@@ -1,4 +1,4 @@
-//Importation des mudules depuis les librairies associées
+//Importation depuis les librairies associées
 import express from 'express';
 /*
 Utilisé pour un test
