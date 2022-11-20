@@ -1,6 +1,10 @@
 //Importation des mudules depuis les librairies associées
 import express from 'express';
+/*
+Utilisé pour un test
 import { STATUS_CODES } from 'http';
+*/
+
 //Mise en variable des éléments "express" et "PING_LISTEN_PORT"
 const app = express();
 const PING_LISTEN_PORT = 3000;
