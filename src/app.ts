@@ -5,7 +5,7 @@ Utilisé pour un test
 import { STATUS_CODES } from 'http';
 */
 
-//Mise en variable des éléments "express" et "PING_LISTEN_PORT"
+//Mise en variable des éléments "express" dans "app" et "VALEUR (= 3000) dans "PING_LISTEN_PORT"
 const app = express();
 const PING_LISTEN_PORT = 3000;
 
